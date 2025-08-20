@@ -1,0 +1,30 @@
+<svg viewBox="0 0 247.073 284.281" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="247.073242" height="284.280640" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_8">
+			<effect x="0.000000" y="15.265896" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.300000012" effectType="dropShadow" stdDeviation="51.1407547" radius="-9.15953636" />
+		</g>
+		<filter id="filter_8" width="247.073242" height="284.280640" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_8)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix result="hardAlpha" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0 " />
+			<feOffset dx="4323.957520" dy="1799.439819" in="hardAlpha" />
+			<feMorphology radius="-9.15953636" operator="dilate" />
+			<feOffset dx="-4323.957520" dy="-1784.173950" />
+			<feGaussianBlur stdDeviation="17.0469189" />
+			<feComposite k2="-1" k3="1" in2="hardAlpha" operator="out" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+		<clipPath id="clipPath_27">
+			<rect width="138.132965" height="184.177322" x="0.000000" y="0.000000" rx="19.025000" fill="rgb(255,255,255)" transform="matrix(0.984808,0.173648,-0.174411,0.984673,71.5806,24.2037)" />
+		</clipPath>
+	</defs>
+	<g id="Group 1597880560">
+		<g id="Frame 2043683065" filter="url(#filter_8)" customFrame="url(#clipPath_27)">
+			<rect id="Frame 2043683065" width="138.132965" height="184.177322" x="0.000000" y="0.000000" rx="19.025000" fill="rgb(255,199,0)" transform="matrix(0.984808,0.173648,-0.174411,0.984673,71.5806,24.2037)" />
+			<rect id="Frame 2043683065" width="138.632965" height="184.677322" x="-0.250000" y="-0.250000" rx="19.025000" stroke="rgb(39,26,88)" stroke-width="0.5" transform="matrix(0.984808,0.173648,-0.174411,0.984673,71.5806,24.2037)" />
+			<rect id="Frame 2043683065" width="138.632965" height="184.677322" x="-0.250000" y="-0.250000" rx="19.025000" stroke="rgb(0,0,0)" stroke-opacity="0.200000003" stroke-width="0.5" transform="matrix(0.984808,0.173648,-0.174411,0.984673,71.5806,24.2037)" />
+		</g>
+		<path id="✊" transform="matrix(0.984808,0.173648,-0.174411,0.984673,91.0508,75.748)" />
+	</g>
+</svg>
