@@ -17,13 +17,13 @@
         <header class="header">
             <img class="header__star2" src="img/Star2.svg" alt="#">
             <img class="header__star3" src="img/Star3.svg" alt="#">
-
         </header>
         <h1 class="top__title">Добро пожаловать на мой сайт мини-игр</h1>
-        <p class="paragraph">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай «Поехали!» и
-            приступай.</p>
+        <p class="paragraph">Тебе предстоит пройти несколько увлекательных 
+            игр. Если готов, нажимай <span class="header__span">«Поехали!»</span> и
+           <span class="header__span">приступай.</span> </p>
 
-        <button class="button">Поехали!</button>
+        <button class="button" onclick="location.href='#about'">Поехали!</button>
         <img class="heeader__star4" src="img/vectorpng.png" alt="#">
         <div class="conteiner">
             <img class="conteiner__star5" src="img/Star5.svg" alt="#">
@@ -86,68 +86,84 @@
             </p>
         </div>
     </div>
-    <div class="for-box center">
+    <div class="for-box center" id="about">
         <h2 class="for__title">Об играх</h2>
         <p class="for__paragraph">В моей коллекции представлено 6 игр на разные темы.Игры несложные — в них может
             поиграть каждый.
             Все игры доступны для пользования.</p>
 
-        <img class="for__star5" src="img/Star 11.svg" alt="#">
-        <img class="for__star6" src="img/Star 12.svg" alt="#">
+        <img class="for__star5" src="img/Star11.svg" alt="#">
+        <img class="for__star6" src="img/Star12.svg" alt="#">
        
         <div class="for">
-
+                  
             <div class="for__conteiner_big">
+                <a class="for__card" href="#">
                 <div class="for__item for__item1">
-                    <img src="img/for__&.svg" alt="">
+                    <img src="img/for__&.svg" alt="#">
                 </div>
                 <article class="for__conteiner">
-                    <button class="for__button">Игра № 1</button>
+                    <span class="for__button">Игра № 1</span>
                     <h3 class="for__h3">Угадай число</h3>
                 </article>
-
+                 </a>
             </div>
 
             <div class="for__conteiner_big">
+                  <a class="for__card" href="#">
                 <div class="for__item for__item2">
                 </div>
                 <article class="for__conteiner">
-                    <button class="for__button">Игра № 2</button>
+                    <span class="for__button">Игра № 2</span>
                     <h3 class="for__h3">Простая арифметика</h3>
                 </article>
+           </a>
             </div>
+           
             <div class="for__conteiner_big">
+                    <a class="for__card" href="#">
                 <div class="for__item for__item3">
                 </div>
                 
                 <article class="for__conteiner">
-                    <button class="for__button">Игра № 3</button>
+                    <span class="for__button">Игра № 3</span>
                     <h3 class="for__h3">Переверни текст</h3>
+                   </article> 
+                 </a>
             </div>
 
             <div class="for__conteiner_big">
+                <a class="for__card" href="#">
                 <div class="for__item for__item4">
-                    <img src="img/fon_kulak.svg" alt="">
+                    <img src="img/fon_kulak.svg" alt="#">
                     <img class="culac" src="img/✊.png" alt="">
-                </div>
-                <article class="for__conteiner">
-                    <button class="for__button">Игра № 4</button>
+                 </div>
+                  <article class="for__conteiner">
+                    <span class="for__button">Игра № 4</span>
                     <h3 class="for__h3">Камень, ножницы, бумага</h3>
-            </div>
+                 </article>
+                </a>
+                </div>
             <div class="for__conteiner_big">
+                <a class="for__card" href="#">
                 <div class="for__item for__item5">
-                    <img src="img/for__green.svg" alt="">
+                    <img src="img/for__green.svg" alt="#">
                 </div>
                 <article class="for__conteiner">
-                    <button class="for__button">Игра № 5</button>
+                    <span class="for__button">Игра № 5</span>
                     <h3 class="for__h3">Простая викторина</h3>
-            </div>
+                 </article>
+                </a>
+                </div>
             <div class="for__conteiner_big">
+              <a class="for__card" href="#">
                 <div class="for__item for__item6"></div>
                 <article class="for__conteiner">
-                    <button class="for__button">Игра № 6</button>
+                    <span class="for__button">Игра № 6</span>
                     <h3 class="for__h3">Генератор случайных цветов</h3>
-            </div>
+                </article>
+            </a>
+                </div>
         </div>
     </div>
 </body>

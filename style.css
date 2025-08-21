@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 .top__title{
 color: rgba(32, 32, 39, 1);
 
@@ -15,6 +18,9 @@ text-align: left;
 .center{
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
+}
+.header__span{
+  font-size: 32px;
 }
 .header__star2{
 position: absolute;
@@ -67,7 +73,7 @@ color: rgb(26, 23, 23);
  font-family: "Montserrat";
     font-size: 64px;
     font-weight: 600;
-    line-height: 70px;
+    line-height: 78px;
     text-align: left;
     width: 769px;
 }
@@ -91,7 +97,7 @@ color: rgb(26, 23, 23);
   font-size: 19px;
 }
 .line__text2{
-  animation: marquee2 20s
+  animation: marquee2 6s
   infinite linear;
   animation-delay: -10s;
 }
@@ -138,6 +144,7 @@ cursor: pointer;
   transition: background-color 1s;
   background-color: black;
   margin-top: 48px;
+  font-family: "Montserrat";
 }
    .button:hover {
     background-color: white;
@@ -152,7 +159,10 @@ background: rgba(188, 236, 48, 1);
 gap: 2px;
     position: absolute;
     bottom: 0;
-
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    font-family: "Montserrat";
  }
   .line__text{
     color: rgba(32, 32, 39, 1);
@@ -266,6 +276,7 @@ background-color: black;
   margin-left: 32px;
   margin-bottom: 36px;
   cursor: pointer;
+
 }
 .for__h3{
 color: rgba(32, 32, 39, 1);
@@ -289,9 +300,16 @@ font-size: 16px;
 font-weight: 500;
 line-height: 20px;
 letter-spacing: 0px;
+border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.for__card{
+  text-decoration: none;
+}
 .for__conteiner_big:hover{
   scale: 110%;
-  
+transition: 1s;
 }
+
