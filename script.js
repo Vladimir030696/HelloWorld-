@@ -1,14 +1,16 @@
 let age = 10;
 alert (age);
-let a = 20;
-alert (a);
+age = 20;
+alert (age);
 let iphone = (`Год выпуска первого iphone 2007`);
 alert(iphone); 
 let js = (`Имя создателя языка JavaScript Брендан Эйх`);
 alert(js);
-let c = 10, b = 2;
-alert(c + b), alert(c - b),alert(c / b);
-let  q = 2, s = 5;
+let c =  Number(10); b = Number(2);
+alert(c + b); 
+alert(c - b);
+alert(c / b);
+let  q = 2; s = 5;
 let result = q**s;
 alert(result);
 let g = 9, m = 2;
@@ -28,9 +30,8 @@ const user = {
   age: 29,           
   isAdmin:  true       
 };
-let name = String(prompt(`Какоу у вас имя?`))
+let name = String(prompt(`Какое у вас имя?`, "Привет, ИМЯ!"))
 alert(name);
-
 
 
 

@@ -66,7 +66,7 @@ width: 296px;
 height: 60px;
 font-family: "Montserrat";
 font-size: 16px;
-font-weight: 500;
+font-weight: 400;
 line-height: 100%;
 letter-spacing: 0px;
 text-align: center;
@@ -74,7 +74,7 @@ line-height: 100%;
 }
 .header__span{
 font-size: 15px;
-font-weight: 700;
+font-weight: 600;
 }
 .header__img_mob{
   display:block;
@@ -123,6 +123,7 @@ display: none;
 }
 &__h3{
     width: 250px;
+    padding-top: 29px;
 }
 &__descript{
 color: rgba(0, 0, 0, 1);
@@ -205,7 +206,7 @@ letter-spacing: 0px;
 text-align: left;
 width: 250px;
 height: 49px;
-padding-top: 64px;
+padding-top: 48px;
 }
 .for__conteiner_big {
 min-width: 290px;
@@ -227,4 +228,16 @@ height: auto;
 
 }
 
+.line__text1{
+        font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 146px;
+    height: 18px;
+
+}
+.line__text2 {
+        width: 19.34px;
+    height: 19.34px;
+}
 }
