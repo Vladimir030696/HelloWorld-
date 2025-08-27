@@ -9,6 +9,7 @@ alert(js);
 let c =  Number(10); b = Number(2);
 alert(c + b); 
 alert(c - b);
+alert(c * b);
 alert(c / b);
 let  q = 2; s = 5;
 let result = q**s;
@@ -30,8 +31,8 @@ const user = {
   age: 29,           
   isAdmin:  true       
 };
-let name = String(prompt(`Какое у вас имя?`, "Привет, ИМЯ!"))
-alert(name);
+let name = String(prompt(`Какое у вас имя?`, ))
+alert("Привет,"+ name);
 
 
 

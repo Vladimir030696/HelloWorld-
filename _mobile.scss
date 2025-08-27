@@ -1,4 +1,10 @@
 @media(min-width:315px) and (max-width:767px){
+    @media(hover:none){
+        .for__conteiner_big:hover {
+  scale: none;
+  transition: none;
+}
+    };
 .center{
     padding-left: 16px;
     padding-right: 16px;
@@ -124,6 +130,8 @@ display: none;
 &__h3{
     width: 250px;
     padding-top: 29px;
+    margin: 0;
+    padding: 0;
 }
 &__descript{
 color: rgba(0, 0, 0, 1);
@@ -240,4 +248,5 @@ height: auto;
         width: 19.34px;
     height: 19.34px;
 }
+
 }
