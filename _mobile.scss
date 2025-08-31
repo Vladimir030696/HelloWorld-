@@ -99,7 +99,9 @@ font-weight: 600;
 line-height: 20px;
 letter-spacing: 0%;
 }
-
+.section {
+    display: none;
+}
 .conteiner{
 &__star5{
     display: none;
