@@ -20,10 +20,13 @@ text-align: left;
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
 }
-.header__img_mob{
+.header__img__mob{
   display: none;
 }
-.header__span{
+.headerimgmob{
+    display:none;
+}
+.headerspan{
   font-size: 24px;
   font-weight: 600;
 }
@@ -37,18 +40,18 @@ padding-left: 36px;
 position: absolute;
 padding-top: 64px;
 }
-.heeader__star4{
+.heeaderstar4{
   position: absolute;
   padding-left: 288px;
   bottom: 31px;
 }
-.for__star5{
+.forstar5{
 position: absolute;
 margin-left: -69px;
 margin-top: 485px;
 }
 
-.for__star6{
+.forstar6{
 position: absolute;
 margin-left: -55px;
 margin-top: 530px;
@@ -199,7 +202,7 @@ text-transform: uppercase;
  background-position: 883px 53px;
  height: 1424px;
   }
-  .for__title{
+  .fortitle{
  color: rgba(255, 255, 255, 1);
  font-family: "Montserrat";
  font-size: 64px;
@@ -210,7 +213,7 @@ text-transform: uppercase;
  padding-top: 94px;
  padding-bottom: 24px;
   }
-  .for__paragraph{
+  .forparagraph{
  color: rgba(255, 255, 255, 1);
  font-family: "Montserrat";
  font-size: 24px;
@@ -288,20 +291,20 @@ background-position:center;
 background-color: black;
 
 }
-.for__conteiner_big{
+.for__conteiner__big{
   background-color: white;
     border-radius: 19.02px;
 min-width: 378px;
     transition: 1s;
 }
-.for__conteiner_1{
+.for__conteiner__1{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
   cursor: pointer;
 height: 159px;
 }
-.for__conteiner_2{
+.for__conteiner__2{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -309,14 +312,14 @@ height: 159px;
   height: 198px;
 
 }
-.for__conteiner_3{
+.for__conteiner__3{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
   cursor: pointer;
  height: 159px;
 }
-.for__conteiner_4{
+.for__conteiner__4{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -324,14 +327,14 @@ height: 159px;
   height: 237px;
 
 }
-.for__conteiner_5{
+.for__conteiner__5{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
   cursor: pointer;
 height: 212px;
 }
-.for__conteiner_6{
+.for__conteiner__6{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -367,38 +370,38 @@ border: none;
 .for__card{
   text-decoration: none;
 }
-.for__conteiner_big:hover{
+.for__conteiner__big:hover{
   scale: 110%;
 transition: 1s;
 }
-.for__conteiner_big_1{
+.for__conteiner__big__1{
   height: 475px;
 }
-.for__conteiner_big_2{
+.for__conteiner__big__2{
 height:512px ;
 }
-.for__conteiner_big_3{
+.for__conteiner__big__3{
 height: 475px;
 }
-.for__conteiner_big_4{
+.for__conteiner__big__4{
 height: 551px;
 margin-top: -40px;
 
 width: 31%;
 }
-.for__conteiner_big_5{
+.for__conteiner__big__5{
 height: 510px;
 }
-.for__conteiner_big_6{
+.for__conteiner__big__6{
 height: 551px;
 margin-top: -40px;
 
 width: 31%;
 }
-.for__mini_card{
+.for__mini__card{
   padding-top: 35px;
 }
-.for__button_big{
+.for__button__big{
   display: none
 }
 .section{
@@ -421,34 +424,34 @@ width: 31%;
       display: flex;
       justify-content: flex-end;  
     }
-    &__star_7{
+    &__star__7{
        position: absolute;
        margin-left: 1160px;
        margin-top: -110px;
     }
-    &__star_6{
+    &__star__6{
        position: absolute;
        margin-left: 1200px;
        margin-top: -70px;
     }
-     &__star_8{
+     &__star__8{
        position: absolute;
        margin-left: 1200px;
        margin-top: 5px;
     }
-     &__star_10{
+     &__star__10{
        position: absolute;
        margin-left: 1150px;
        margin-top: 50px;
     }
-    &__conteiner_free{
+    &__conteiner__free{
        background-color: white;
       border-radius: 19.02px;
       display: flex;
       justify-content: flex-end;
       margin-top: 32px;
     }
-    &__conteiner_mini_1{
+    &__conteiner__mini__1{
       padding-top: 48px;
       padding-left: 48px;
       padding-right: 48px;
@@ -498,7 +501,7 @@ width: 31%;
 background-color: white;
 color: black;
 }
-&__conteiner_mini_img_1{
+&__conteiner__mini__img__1{
  background-image:url(img/Обложкакарточки.png);
 background-color:#ad61ff;
 border-radius: 19px;
@@ -510,7 +513,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner_mini_img_2{
+&__conteiner__mini__img__2{
    background-image:url(img/Gro.png);
 background-color: rgba(86, 94, 239, 1);
 border-radius: 19px;
@@ -522,7 +525,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner_mini_img_3{
+&__conteiner__mini__img__3{
 background-image:url(img/big_fon.png);
 background-color:yellowgreen;
 border-radius: 19px;
@@ -534,7 +537,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner_mini_img_4{
+&__conteiner__mini__img__4{
 background-image:url(img/big_fon2.png);
 border-radius: 19px;
 background-position: center;
@@ -545,7 +548,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner_mini_img_5{
+&__conteiner__mini__img__5{
 background-image:url(img/big_fon4.png);
 background-color:black;
 border-radius: 19px;
@@ -557,7 +560,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner_mini_img_6{
+&__conteiner__mini__img__6{
 background-image:url(img/big_fon5.png);
 background-color:black;
 border-radius: 19px;

@@ -23,11 +23,15 @@ html {
   padding-right: calc(50% - 600px);
 }
 
-.header__img_mob {
+.header__img__mob {
   display: none;
 }
 
-.header__span {
+.headerimgmob {
+  display: none;
+}
+
+.headerspan {
   font-size: 24px;
   font-weight: 600;
 }
@@ -44,19 +48,19 @@ html {
   padding-top: 64px;
 }
 
-.heeader__star4 {
+.heeaderstar4 {
   position: absolute;
   padding-left: 288px;
   bottom: 31px;
 }
 
-.for__star5 {
+.forstar5 {
   position: absolute;
   margin-left: -69px;
   margin-top: 485px;
 }
 
-.for__star6 {
+.forstar6 {
   position: absolute;
   margin-left: -55px;
   margin-top: 530px;
@@ -219,7 +223,7 @@ html {
   height: 1424px;
 }
 
-.for__title {
+.fortitle {
   color: rgb(255, 255, 255);
   font-family: "Montserrat";
   font-size: 64px;
@@ -231,7 +235,7 @@ html {
   padding-bottom: 24px;
 }
 
-.for__paragraph {
+.forparagraph {
   color: rgb(255, 255, 255);
   font-family: "Montserrat";
   font-size: 24px;
@@ -319,14 +323,14 @@ html {
   background-color: black;
 }
 
-.for__conteiner_big {
+.for__conteiner__big {
   background-color: white;
   border-radius: 19.02px;
   min-width: 378px;
   transition: 1s;
 }
 
-.for__conteiner_1 {
+.for__conteiner__1 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -334,7 +338,7 @@ html {
   height: 159px;
 }
 
-.for__conteiner_2 {
+.for__conteiner__2 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -342,7 +346,7 @@ html {
   height: 198px;
 }
 
-.for__conteiner_3 {
+.for__conteiner__3 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -350,7 +354,7 @@ html {
   height: 159px;
 }
 
-.for__conteiner_4 {
+.for__conteiner__4 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -358,7 +362,7 @@ html {
   height: 237px;
 }
 
-.for__conteiner_5 {
+.for__conteiner__5 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -366,7 +370,7 @@ html {
   height: 212px;
 }
 
-.for__conteiner_6 {
+.for__conteiner__6 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -406,44 +410,44 @@ html {
   text-decoration: none;
 }
 
-.for__conteiner_big:hover {
+.for__conteiner__big:hover {
   scale: 110%;
   transition: 1s;
 }
 
-.for__conteiner_big_1 {
+.for__conteiner__big__1 {
   height: 475px;
 }
 
-.for__conteiner_big_2 {
+.for__conteiner__big__2 {
   height: 512px;
 }
 
-.for__conteiner_big_3 {
+.for__conteiner__big__3 {
   height: 475px;
 }
 
-.for__conteiner_big_4 {
+.for__conteiner__big__4 {
   height: 551px;
   margin-top: -40px;
   width: 31%;
 }
 
-.for__conteiner_big_5 {
+.for__conteiner__big__5 {
   height: 510px;
 }
 
-.for__conteiner_big_6 {
+.for__conteiner__big__6 {
   height: 551px;
   margin-top: -40px;
   width: 31%;
 }
 
-.for__mini_card {
+.for__mini__card {
   padding-top: 35px;
 }
 
-.for__button_big {
+.for__button__big {
   display: none;
 }
 
@@ -469,34 +473,34 @@ html {
   display: flex;
   justify-content: flex-end;
 }
-.section__star_7 {
+.section__star__7 {
   position: absolute;
   margin-left: 1160px;
   margin-top: -110px;
 }
-.section__star_6 {
+.section__star__6 {
   position: absolute;
   margin-left: 1200px;
   margin-top: -70px;
 }
-.section__star_8 {
+.section__star__8 {
   position: absolute;
   margin-left: 1200px;
   margin-top: 5px;
 }
-.section__star_10 {
+.section__star__10 {
   position: absolute;
   margin-left: 1150px;
   margin-top: 50px;
 }
-.section__conteiner_free {
+.section__conteiner__free {
   background-color: white;
   border-radius: 19.02px;
   display: flex;
   justify-content: flex-end;
   margin-top: 32px;
 }
-.section__conteiner_mini_1 {
+.section__conteiner__mini__1 {
   padding-top: 48px;
   padding-left: 48px;
   padding-right: 48px;
@@ -546,7 +550,7 @@ html {
   background-color: white;
   color: black;
 }
-.section__conteiner_mini_img_1 {
+.section__conteiner__mini__img__1 {
   background-image: url(img/Обложкакарточки.png);
   background-color: #ad61ff;
   border-radius: 19px;
@@ -558,7 +562,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner_mini_img_2 {
+.section__conteiner__mini__img__2 {
   background-image: url(img/Gro.png);
   background-color: rgb(86, 94, 239);
   border-radius: 19px;
@@ -570,7 +574,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner_mini_img_3 {
+.section__conteiner__mini__img__3 {
   background-image: url(img/big_fon.png);
   background-color: yellowgreen;
   border-radius: 19px;
@@ -582,7 +586,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner_mini_img_4 {
+.section__conteiner__mini__img__4 {
   background-image: url(img/big_fon2.png);
   border-radius: 19px;
   background-position: center;
@@ -593,7 +597,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner_mini_img_5 {
+.section__conteiner__mini__img__5 {
   background-image: url(img/big_fon4.png);
   background-color: black;
   border-radius: 19px;
@@ -605,7 +609,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner_mini_img_6 {
+.section__conteiner__mini__img__6 {
   background-image: url(img/big_fon5.png);
   background-color: black;
   border-radius: 19px;
@@ -670,22 +674,22 @@ html {
   .header__star2 {
     display: none;
   }
-  .header__mob_Star2 {
+  .header__mob__Star2 {
     position: absolute;
     margin-top: -55px;
     margin-left: -150px;
   }
-  .header__mob_Star3 {
+  .header__mob__Star3 {
     position: absolute;
     margin-top: -90px;
     margin-left: -98px;
   }
-  .header__mob_Star5 {
+  .headermobStar5 {
     position: absolute;
     margin-left: 80px;
     margin-top: 15px;
   }
-  .header__mob_Star4 {
+  .headermobStar4 {
     position: absolute;
     margin-top: 36px;
     margin-left: 110px;
@@ -693,14 +697,14 @@ html {
   .header__star3 {
     display: none;
   }
-  .header__mob_vector {
+  .header__mob__vector {
     width: 291.52px;
     height: 292.57px;
     position: absolute;
     margin-left: 0px;
     margin-top: -260px;
   }
-  .heeader__star4 {
+  .heeaderstar4 {
     display: none;
   }
   .paragraph {
@@ -715,11 +719,14 @@ html {
     text-align: center;
     line-height: 100%;
   }
-  .header__span {
+  .headerspan {
     font-size: 15px;
     font-weight: 600;
   }
-  .header__img_mob {
+  .header__img__mob {
+    display: block;
+  }
+  .headerimgmob {
     display: block;
   }
   .button {
@@ -749,10 +756,10 @@ html {
     height: 100%;
     padding-bottom: 10px;
   }
-  .for__title {
+  .fortitle {
     display: none;
   }
-  .for__paragraph {
+  .forparagraph {
     display: none;
   }
   .line {
@@ -783,7 +790,7 @@ html {
     flex-direction: row;
     display: block;
   }
-  .for__button_big {
+  .for__button__big {
     box-sizing: border-box;
     border: 1px solid rgb(32, 32, 39);
     border-radius: 60px;
@@ -802,49 +809,49 @@ html {
     width: 100%;
     display: block;
   }
-  .for__conteiner_1 {
+  .for__conteiner__1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__conteiner_2 {
+  .for__conteiner__2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__conteiner_3 {
+  .for__conteiner__3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__conteiner_4 {
+  .for__conteiner__4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__conteiner_5 {
+  .for__conteiner__5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__conteiner_6 {
+  .for__conteiner__6 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__paragraph_mob {
+  .forparagraphmob {
     color: rgb(255, 255, 255);
     font-family: "Montserrat";
     font-size: 40px;
@@ -856,19 +863,19 @@ html {
     height: 49px;
     padding-top: 48px;
   }
-  .for__conteiner_big {
+  .for__conteiner__big {
     min-width: 290px;
     margin: 0;
     width: 100%;
     height: auto;
   }
-  .for__star5 {
+  .forstar5 {
     display: none;
   }
-  .for__star6 {
+  .forstar6 {
     display: none;
   }
-  .for__conteiner_3 {
+  .for__conteiner__3 {
     height: auto;
   }
   .line__text1 {

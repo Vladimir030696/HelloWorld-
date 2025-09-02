@@ -1,6 +1,6 @@
-let age = prompt('пароль?');
+let password = prompt('пароль?');
 let message;
-if(age >= 14) {
+if(password >= 14) {
     message = 'Пароль введен верно';
 } else {
     message = 'Пароль введен неправильно';
@@ -14,42 +14,42 @@ let e = 75;
 let a = '2';
 let b = '3';
 alert(Number(a)+ Number(b));
-let  monthNumber = String(prompt(`Видите месяц`));
+let  monthNumber = String(prompt(`Введите месяц`));
   switch (monthNumber) {
-    case `1`:
+    case 1:
         console.log(`зима`)
   break;
-    case `2`:
+    case 2:
         console.log(`зима`)
   break;
-    case `3`:
+    case 3:
         console.log(`весна`)
   break;
-    case `4`:
+    case 4:
         console.log(`весна`)
   break;
-    case `5`:
+    case 5:
         console.log(`весна`)
   break;
-    case `6`:
+    case 6:
         console.log(`лето`)
   break;
-    case `7`:
+    case 7:
         console.log(`лето`)
   break;
-    case `8`:
+    case 8:
         console.log(`лето`)
   break;
-    case `9`:
+    case 9:
         console.log(`осень`)
   break;
-    case `10`:
+    case 10:
         console.log(`осень`)
   break;
-    case `11`:
+    case 11:
         console.log(`осень`)
   break;
-    case `12`:
+    case 12:
         console.log(`зима`)
   break;
   default:
