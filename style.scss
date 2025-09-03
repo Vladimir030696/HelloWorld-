@@ -20,7 +20,7 @@ text-align: left;
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
 }
-.header__img__mob{
+.header__img-mob{
   display: none;
 }
 .headerimgmob{
@@ -291,20 +291,20 @@ background-position:center;
 background-color: black;
 
 }
-.for__conteiner__big{
+.for__conteinerbig{
   background-color: white;
     border-radius: 19.02px;
 min-width: 378px;
     transition: 1s;
 }
-.for__conteiner__1{
+.for__conteiner-1{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
   cursor: pointer;
 height: 159px;
 }
-.for__conteiner__2{
+.for__conteiner-2{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -312,14 +312,14 @@ height: 159px;
   height: 198px;
 
 }
-.for__conteiner__3{
+.for__conteiner-3{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
   cursor: pointer;
  height: 159px;
 }
-.for__conteiner__4{
+.for__conteiner-4{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -327,14 +327,14 @@ height: 159px;
   height: 237px;
 
 }
-.for__conteiner__5{
+.for__conteiner-5{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
   cursor: pointer;
 height: 212px;
 }
-.for__conteiner__6{
+.for__conteiner-6{
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -370,38 +370,43 @@ border: none;
 .for__card{
   text-decoration: none;
 }
-.for__conteiner__big:hover{
+.for__conteinerbig:hover{
   scale: 110%;
 transition: 1s;
 }
-.for__conteiner__big__1{
+.for__conteiner-big1{
   height: 475px;
+
 }
-.for__conteiner__big__2{
+.for__conteiner__big__1:hover{
+  scale: 110%;
+transition: 1s;
+}
+.for__conteiner-big2{
 height:512px ;
 }
-.for__conteiner__big__3{
+.for__conteiner-big3{
 height: 475px;
 }
-.for__conteiner__big__4{
+.for__conteiner-big4{
 height: 551px;
 margin-top: -40px;
 
 width: 31%;
 }
-.for__conteiner__big__5{
+.for__conteiner-big5{
 height: 510px;
 }
-.for__conteiner__big__6{
+.for__conteiner-big6{
 height: 551px;
 margin-top: -40px;
 
 width: 31%;
 }
-.for__mini__card{
+.for__mini-card{
   padding-top: 35px;
 }
-.for__button__big{
+.for__button-big{
   display: none
 }
 .section{
@@ -424,34 +429,34 @@ width: 31%;
       display: flex;
       justify-content: flex-end;  
     }
-    &__star__7{
+    &__star7{
        position: absolute;
        margin-left: 1160px;
        margin-top: -110px;
     }
-    &__star__6{
+    &__star6{
        position: absolute;
        margin-left: 1200px;
        margin-top: -70px;
     }
-     &__star__8{
+     &__star8{
        position: absolute;
        margin-left: 1200px;
        margin-top: 5px;
     }
-     &__star__10{
+     &__star10{
        position: absolute;
        margin-left: 1150px;
        margin-top: 50px;
     }
-    &__conteiner__free{
+    &__conteiner-free{
        background-color: white;
       border-radius: 19.02px;
       display: flex;
       justify-content: flex-end;
       margin-top: 32px;
     }
-    &__conteiner__mini__1{
+    &__conteiner-mini1{
       padding-top: 48px;
       padding-left: 48px;
       padding-right: 48px;
@@ -501,7 +506,7 @@ width: 31%;
 background-color: white;
 color: black;
 }
-&__conteiner__mini__img__1{
+&__conteiner-mini-img1{
  background-image:url(img/Обложкакарточки.png);
 background-color:#ad61ff;
 border-radius: 19px;
@@ -513,7 +518,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner__mini__img__2{
+&__conteiner-mini-img2{
    background-image:url(img/Gro.png);
 background-color: rgba(86, 94, 239, 1);
 border-radius: 19px;
@@ -525,7 +530,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner__mini__img__3{
+&__conteiner-mini-img3{
 background-image:url(img/big_fon.png);
 background-color:yellowgreen;
 border-radius: 19px;
@@ -537,7 +542,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner__mini__img__4{
+&__conteiner-mini-img4{
 background-image:url(img/big_fon2.png);
 border-radius: 19px;
 background-position: center;
@@ -548,7 +553,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner__mini__img__5{
+&__conteiner-mini-img5{
 background-image:url(img/big_fon4.png);
 background-color:black;
 border-radius: 19px;
@@ -560,7 +565,7 @@ width:600px;
 min-height: 500px;
 background-repeat: no-repeat;
 }
-&__conteiner__mini__img__6{
+&__conteiner-mini-img6{
 background-image:url(img/big_fon5.png);
 background-color:black;
 border-radius: 19px;

@@ -1,6 +1,6 @@
-let password = prompt('пароль?');
+let password =  Number(prompt('пароль?'));
 let message;
-if(password >= 14) {
+if(password === 14) {
     message = 'Пароль введен верно';
 } else {
     message = 'Пароль введен неправильно';
@@ -14,7 +14,7 @@ let e = 75;
 let a = '2';
 let b = '3';
 alert(Number(a)+ Number(b));
-let  monthNumber = String(prompt(`Введите месяц`));
+let  monthNumber = Number(prompt(`Введите месяц`));
   switch (monthNumber) {
     case 1:
         console.log(`зима`)

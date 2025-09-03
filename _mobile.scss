@@ -31,12 +31,12 @@ padding-top: 0px
 &__star2{
 display: none;
 }
-&__mob__Star2{
+&__mobStar2{
 position: absolute;
 margin-top: -55px;
 margin-left: -150px;
 }
-&__mob__Star3{
+&__mobStar3{
     position: absolute;
     margin-top: -90px;
     margin-left: -98px;
@@ -54,7 +54,7 @@ margin-left: -150px;
 {
 display: none;
 }
-&__mob__vector{
+&__mobvector{
 width: 291.52px;
 height: 292.57px;
 position: absolute;
@@ -82,7 +82,7 @@ line-height: 100%;
 font-size: 15px;
 font-weight: 600;
 }
-.header__img__mob{
+.header__img-mob{
   display:block;
 }
 .headerimgmob{
@@ -151,7 +151,7 @@ margin-top: 16px;
 flex-direction: row;
 display: block;
 }
-&__button__big{
+&__button-big{
 box-sizing: border-box;
 border: 1px solid rgba(32, 32, 39, 1);
 border-radius: 60px;
@@ -170,38 +170,39 @@ min-width: 240px;
 width: 100%;
 display: block;
 }
-&__conteiner__1{
+&__conteiner-1{
         display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
+    margin-bottom: 36px;
 }
-&__conteiner__2{
+&__conteiner-2{
         display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
-}&__conteiner__3{
+}&__conteiner-3{
         display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
-}&__conteiner__4{
+}&__conteiner-4{
         display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
-}&__conteiner__5{
+}&__conteiner-5{
         display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
-}&__conteiner__6{
+}&__conteiner-6{
         display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,7 +222,7 @@ width: 250px;
 height: 49px;
 padding-top: 48px;
 }
-.for__conteiner__big {
+.for__conteinerbig {
 min-width: 290px;
 margin: 0;
 width: 100%;

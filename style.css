@@ -23,7 +23,7 @@ html {
   padding-right: calc(50% - 600px);
 }
 
-.header__img__mob {
+.header__img-mob {
   display: none;
 }
 
@@ -323,14 +323,14 @@ html {
   background-color: black;
 }
 
-.for__conteiner__big {
+.for__conteinerbig {
   background-color: white;
   border-radius: 19.02px;
   min-width: 378px;
   transition: 1s;
 }
 
-.for__conteiner__1 {
+.for__conteiner-1 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -338,7 +338,7 @@ html {
   height: 159px;
 }
 
-.for__conteiner__2 {
+.for__conteiner-2 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -346,7 +346,7 @@ html {
   height: 198px;
 }
 
-.for__conteiner__3 {
+.for__conteiner-3 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -354,7 +354,7 @@ html {
   height: 159px;
 }
 
-.for__conteiner__4 {
+.for__conteiner-4 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -362,7 +362,7 @@ html {
   height: 237px;
 }
 
-.for__conteiner__5 {
+.for__conteiner-5 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -370,7 +370,7 @@ html {
   height: 212px;
 }
 
-.for__conteiner__6 {
+.for__conteiner-6 {
   margin-top: 32px;
   margin-left: 32px;
   margin-bottom: 36px;
@@ -410,44 +410,49 @@ html {
   text-decoration: none;
 }
 
-.for__conteiner__big:hover {
+.for__conteinerbig:hover {
   scale: 110%;
   transition: 1s;
 }
 
-.for__conteiner__big__1 {
+.for__conteiner-big1 {
   height: 475px;
 }
 
-.for__conteiner__big__2 {
+.for__conteiner__big__1:hover {
+  scale: 110%;
+  transition: 1s;
+}
+
+.for__conteiner-big2 {
   height: 512px;
 }
 
-.for__conteiner__big__3 {
+.for__conteiner-big3 {
   height: 475px;
 }
 
-.for__conteiner__big__4 {
+.for__conteiner-big4 {
   height: 551px;
   margin-top: -40px;
   width: 31%;
 }
 
-.for__conteiner__big__5 {
+.for__conteiner-big5 {
   height: 510px;
 }
 
-.for__conteiner__big__6 {
+.for__conteiner-big6 {
   height: 551px;
   margin-top: -40px;
   width: 31%;
 }
 
-.for__mini__card {
+.for__mini-card {
   padding-top: 35px;
 }
 
-.for__button__big {
+.for__button-big {
   display: none;
 }
 
@@ -473,34 +478,34 @@ html {
   display: flex;
   justify-content: flex-end;
 }
-.section__star__7 {
+.section__star7 {
   position: absolute;
   margin-left: 1160px;
   margin-top: -110px;
 }
-.section__star__6 {
+.section__star6 {
   position: absolute;
   margin-left: 1200px;
   margin-top: -70px;
 }
-.section__star__8 {
+.section__star8 {
   position: absolute;
   margin-left: 1200px;
   margin-top: 5px;
 }
-.section__star__10 {
+.section__star10 {
   position: absolute;
   margin-left: 1150px;
   margin-top: 50px;
 }
-.section__conteiner__free {
+.section__conteiner-free {
   background-color: white;
   border-radius: 19.02px;
   display: flex;
   justify-content: flex-end;
   margin-top: 32px;
 }
-.section__conteiner__mini__1 {
+.section__conteiner-mini1 {
   padding-top: 48px;
   padding-left: 48px;
   padding-right: 48px;
@@ -550,7 +555,7 @@ html {
   background-color: white;
   color: black;
 }
-.section__conteiner__mini__img__1 {
+.section__conteiner-mini-img1 {
   background-image: url(img/Обложкакарточки.png);
   background-color: #ad61ff;
   border-radius: 19px;
@@ -562,7 +567,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner__mini__img__2 {
+.section__conteiner-mini-img2 {
   background-image: url(img/Gro.png);
   background-color: rgb(86, 94, 239);
   border-radius: 19px;
@@ -574,7 +579,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner__mini__img__3 {
+.section__conteiner-mini-img3 {
   background-image: url(img/big_fon.png);
   background-color: yellowgreen;
   border-radius: 19px;
@@ -586,7 +591,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner__mini__img__4 {
+.section__conteiner-mini-img4 {
   background-image: url(img/big_fon2.png);
   border-radius: 19px;
   background-position: center;
@@ -597,7 +602,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner__mini__img__5 {
+.section__conteiner-mini-img5 {
   background-image: url(img/big_fon4.png);
   background-color: black;
   border-radius: 19px;
@@ -609,7 +614,7 @@ html {
   min-height: 500px;
   background-repeat: no-repeat;
 }
-.section__conteiner__mini__img__6 {
+.section__conteiner-mini-img6 {
   background-image: url(img/big_fon5.png);
   background-color: black;
   border-radius: 19px;
@@ -674,12 +679,12 @@ html {
   .header__star2 {
     display: none;
   }
-  .header__mob__Star2 {
+  .header__mobStar2 {
     position: absolute;
     margin-top: -55px;
     margin-left: -150px;
   }
-  .header__mob__Star3 {
+  .header__mobStar3 {
     position: absolute;
     margin-top: -90px;
     margin-left: -98px;
@@ -697,7 +702,7 @@ html {
   .header__star3 {
     display: none;
   }
-  .header__mob__vector {
+  .header__mobvector {
     width: 291.52px;
     height: 292.57px;
     position: absolute;
@@ -723,7 +728,7 @@ html {
     font-size: 15px;
     font-weight: 600;
   }
-  .header__img__mob {
+  .header__img-mob {
     display: block;
   }
   .headerimgmob {
@@ -790,7 +795,7 @@ html {
     flex-direction: row;
     display: block;
   }
-  .for__button__big {
+  .for__button-big {
     box-sizing: border-box;
     border: 1px solid rgb(32, 32, 39);
     border-radius: 60px;
@@ -809,42 +814,43 @@ html {
     width: 100%;
     display: block;
   }
-  .for__conteiner__1 {
+  .for__conteiner-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 36px;
+  }
+  .for__conteiner-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__conteiner__2 {
+  .for__conteiner-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__conteiner__3 {
+  .for__conteiner-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__conteiner__4 {
+  .for__conteiner-5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-left: 0;
   }
-  .for__conteiner__5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    margin-left: 0;
-  }
-  .for__conteiner__6 {
+  .for__conteiner-6 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -863,7 +869,7 @@ html {
     height: 49px;
     padding-top: 48px;
   }
-  .for__conteiner__big {
+  .for__conteinerbig {
     min-width: 290px;
     margin: 0;
     width: 100%;
